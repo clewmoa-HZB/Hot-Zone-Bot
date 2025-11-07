@@ -14,7 +14,7 @@ async def load_all_cogs(bot):
         "Files.Modules.Clear_messages.clear_messages_server",
         "Files.Modules.DM_request.MP",
         "Files.Modules.Convocation.convocation",
-        "Help_command",
+        "help_command",
         "Files.Modules.Moderation.moderation",
     ]
     for ext in extensions:

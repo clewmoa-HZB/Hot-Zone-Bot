@@ -10,7 +10,7 @@ class Convocation(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(name="convoquer", description="Convoquer un ou plusieurs membres pour un entretien.")
+    @app_commands.command(name="convoquer", description="Convoquer un ou plusieurs membres pour une raison spécifiée.")
     @app_commands.describe(
         membre="Le premier membre à convoquer.",
         raison="La raison de la convocation.",
