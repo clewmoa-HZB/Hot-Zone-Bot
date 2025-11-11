@@ -139,6 +139,9 @@ venv.bak/
 # Data
 Data/
 
+# Bot status update files
+S_*
+
 # Spyder project settings
 .spyderproject
 .spyproject
